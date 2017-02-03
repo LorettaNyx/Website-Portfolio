@@ -1,0 +1,77 @@
+
+/*---------------Responsive---------------*/
+@media only screen and (min-width:320px) and (max-width:1200px) {
+    .navigation-bar li:not(:first-child){display: none;}
+
+    .nav-ul .icon {
+        display: inline-block;
+        float: right;
+    }
+    ul.navigation-bar li.icon {
+        float: right;
+        display: inline-block;
+        padding: 1% 6% 0 0;
+        }
+    ul.navigation-bar.responsive {position: relative;}
+    ul.navigation-bar.responsive li.icon {position: absolute;}
+    ul.navigation-bar.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.navigation-bar li a {
+        text-align: center;
+    }
+    ul.navigation-bar.responsive li a {
+        display: block;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+    #about-me{
+        display: block;
+    }
+    #about-me h2{
+        font-size: 200%;
+    }
+        #contact i {
+        font-size: 200%;
+    }
+    }
+@media only screen and (min-width:10px) and (max-width:320px) {
+    .navigation-bar li:not(:first-child){display: none;}
+
+    .nav-ul .icon {
+        display: inline-block;
+        float: right;
+    }
+    ul.navigation-bar li.icon {
+        float: right;
+        display: inline-block;
+        padding: 1% 6% 0 0;
+        }
+    ul.navigation-bar.responsive {position: relative;}
+    ul.navigation-bar.responsive li.icon {position: absolute;}
+    ul.navigation-bar.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.navigation-bar.responsive li  a{
+        display: block;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+    #about-me{
+        display: block;
+    }
+    #about-me h2{
+        font-size: 150%;
+    }
+    #about-me p {        
+        font-size: 100%;
+    }
+    #contact i {
+        font-size: 150%;
+    }
